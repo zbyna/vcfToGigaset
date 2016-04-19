@@ -1,8 +1,0 @@
-object OtherForm: TOtherForm
-  Left = 703
-  Height = 378
-  Top = 221
-  Width = 562
-  Caption = 'OtherForm'
-  LCLVersion = '1.3'
-end
