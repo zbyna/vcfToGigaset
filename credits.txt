@@ -19,4 +19,8 @@ and others
 
 Awesome cliparts made by andinuryadin
  https://openclipart.org/user-detail/andinuryadin
+ 
+Great Chromium Embedded Framework for Free Pascal 
+   fpCEF3 created by dliw
+   https://github.com/dliw/fpCEF3
 
