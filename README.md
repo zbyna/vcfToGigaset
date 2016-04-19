@@ -21,4 +21,4 @@ Access to the Web interface of phone uses Chromium Embedded Framework for Free P
 If you want to try this program you will need CEF libraries + subprocess.exe extracted to the main directory.
 http://uloz.to/xYej2VBz/cef-3-2454-1342-win32-subprocess-rar
 
-Program was tested in win7 64bit.
+Program was tested in win7 64bit. with FreePascal  3.1.1  SVN Rev 31752 32bit and  CodeTyphon 5.5
