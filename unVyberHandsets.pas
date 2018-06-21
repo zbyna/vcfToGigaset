@@ -30,7 +30,7 @@ var
 implementation
 
 
-{$R *.lfm}
+{$R *.frm}
 
 { TfrmVyberHandsets }
 

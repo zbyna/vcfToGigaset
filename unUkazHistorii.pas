@@ -50,7 +50,7 @@ var
 
 implementation
 
-{$R *.lfm}
+{$R *.frm}
 
 uses Unit1;
 { TfrmUkazHistorii }

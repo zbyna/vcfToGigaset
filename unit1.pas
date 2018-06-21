@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, db, fileutil, ZConnection, ZDataset, ZSqlUpdate,
-  rxdbgrid, RxSortZeos,
+  rxdbgrid, RxSortZeos,LazFileUtils,
   Forms, Controls, Graphics,
   Dialogs, DbCtrls, DBGrids, strutils, Menus, ComCtrls, ExtCtrls, ActnList,
   utf8scanner, Clipbrd, LCLIntf, {mainCEF,}
@@ -339,7 +339,7 @@ var
    // *********************************************************  END
 implementation
    uses unVyberHandsets {from mainCEF},unit2,unNastaveni,unHledej;
-{$R *.lfm}
+{$R *.frm}
 var
  HistoryFiles:TStringList;   {seznam naposledy otevřených souborů}
  JmenoAktSoubor:String;      {jméno aktuálně otevřeného souboru *.fdb}
@@ -1149,7 +1149,7 @@ procedure TForm1.MenuItemPomocClick(Sender: TObject); //sumatrapdf
 //var
 //   str:String;
 begin
-   OpenURL(GetCurrentDirUTF8+'\Help\index.html');
+   OpenURL(GetCurrentDirUTF8 +'\Help\index.html');
   //str:='"help.chm"  -restrict  ';
   //RunCommand('sumatrapdf',str,str);
 end;
@@ -2147,7 +2147,7 @@ function TCustomRenderProcessHandler.OnProcessMessageReceived(
     case message.Name of
     'visitdom' :
         begin
-          pokus1:= @pokus;
+          //pokus1:= @pokus;
           browser.MainFrame.VisitDomProc(pokus1);
           Result := True;
         end;
