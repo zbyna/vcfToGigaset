@@ -939,6 +939,12 @@ begin
                       Zquery1.FieldByName('MOBIL').AsString:=pMob;
                       ZQuery1.Post;// v BeforePost se vytvoří THistoryItem;
                       multiPolozkaHistorie:=True; // aby přidávalo do té samé položky historie
+                      // je třeba vyčistit všechny použité proměnné pro nalezené texty
+                      pPri:='';
+                      pJme:='';
+                      pDom:='';
+                      pPra:='';
+                      pMob:='';
                       continue;
                     end
                                                 else
