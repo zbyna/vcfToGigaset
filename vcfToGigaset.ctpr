@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
-    <Version Value="10"/>
+    <Version Value="11"/>
     <PathDelim Value="\"/>
     <General>
       <SessionStorage Value="InProjectDir"/>
@@ -14,96 +14,19 @@
     <i18n>
       <EnableI18N LFM="False"/>
     </i18n>
-    <VersionInfo>
-      <MajorVersionNr Value="1"/>
-      <RevisionNr Value="1"/>
-      <StringTable ProductVersion="0.0.0.0"/>
-    </VersionInfo>
-    <BuildModes Count="3">
+    <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
-      <Item2 Name="Debug">
-        <CompilerOptions>
-          <Version Value="11"/>
-          <PathDelim Value="\"/>
-          <Target>
-            <Filename Value="vcfToGigaset"/>
-          </Target>
-          <SearchPaths>
-            <IncludeFiles Value="$(ProjOutDir)"/>
-            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
-          </SearchPaths>
-          <Parsing>
-            <SyntaxOptions>
-              <IncludeAssertionCode Value="True"/>
-            </SyntaxOptions>
-          </Parsing>
-          <CodeGeneration>
-            <Checks>
-              <IOChecks Value="True"/>
-              <RangeChecks Value="True"/>
-              <OverflowChecks Value="True"/>
-              <StackChecks Value="True"/>
-            </Checks>
-            <VerifyObjMethodCallValidity Value="True"/>
-          </CodeGeneration>
-          <Linking>
-            <Debugging>
-              <DebugInfoType Value="dsDwarf2Set"/>
-              <UseHeaptrc Value="True"/>
-              <TrashVariables Value="True"/>
-              <UseExternalDbgSyms Value="True"/>
-            </Debugging>
-            <Options>
-              <Win32>
-                <GraphicApplication Value="True"/>
-              </Win32>
-            </Options>
-          </Linking>
-        </CompilerOptions>
-      </Item2>
-      <Item3 Name="Release">
-        <CompilerOptions>
-          <Version Value="11"/>
-          <PathDelim Value="\"/>
-          <Target>
-            <Filename Value="vcfToGigaset"/>
-          </Target>
-          <SearchPaths>
-            <IncludeFiles Value="$(ProjOutDir)"/>
-            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
-          </SearchPaths>
-          <CodeGeneration>
-            <SmartLinkUnit Value="True"/>
-            <Optimizations>
-              <OptimizationLevel Value="3"/>
-            </Optimizations>
-          </CodeGeneration>
-          <Linking>
-            <Debugging>
-              <GenerateDebugInfo Value="False"/>
-            </Debugging>
-            <LinkSmart Value="True"/>
-            <Options>
-              <Win32>
-                <GraphicApplication Value="True"/>
-              </Win32>
-            </Options>
-          </Linking>
-        </CompilerOptions>
-      </Item3>
-      <SharedMatrixOptions Count="1">
-        <Item1 ID="905886597517" Modes="Default,Release" Value="-dDisableUTF8RTL"/>
-      </SharedMatrixOptions>
     </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
     </PublishOptions>
     <RunParams>
-      <local>
-        <FormatVersion Value="1"/>
-      </local>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default"/>
+      </Modes>
     </RunParams>
-    <RequiredPackages Count="18">
+    <RequiredPackages Count="17">
       <Item1>
         <PackageName Value="CEF3"/>
       </Item1>
@@ -114,58 +37,56 @@
         <PackageName Value="pl_virtualtrees"/>
       </Item3>
       <Item4>
-        <PackageName Value="lz_rxbase"/>
+        <PackageName Value="lz_chmhelp"/>
       </Item4>
       <Item5>
-        <PackageName Value="lz_chmhelp"/>
+        <PackageName Value="poweredby"/>
       </Item5>
       <Item6>
-        <PackageName Value="poweredby"/>
+        <PackageName Value="splashabout"/>
       </Item6>
       <Item7>
-        <PackageName Value="splashabout"/>
+        <PackageName Value="pl_DCP"/>
       </Item7>
       <Item8>
-        <PackageName Value="pl_DCP"/>
+        <PackageName Value="internettools"/>
       </Item8>
       <Item9>
-        <PackageName Value="internettools"/>
+        <PackageName Value="pl_KControls"/>
       </Item9>
       <Item10>
-        <PackageName Value="pl_KControls"/>
+        <PackageName Value="utf8tools"/>
       </Item10>
       <Item11>
-        <PackageName Value="utf8tools"/>
+        <PackageName Value="lz_mouseandkeyinput"/>
       </Item11>
       <Item12>
-        <PackageName Value="lz_mouseandkeyinput"/>
+        <PackageName Value="pl_exsystem"/>
       </Item12>
       <Item13>
-        <PackageName Value="pl_exsystem"/>
+        <PackageName Value="pl_spktoolbar"/>
       </Item13>
       <Item14>
-        <PackageName Value="pl_spktoolbar"/>
+        <PackageName Value="adFCL"/>
       </Item14>
       <Item15>
-        <PackageName Value="adFCL"/>
+        <PackageName Value="pl_zeosdbo"/>
       </Item15>
       <Item16>
-        <PackageName Value="pl_zeosdbo"/>
+        <PackageName Value="pl_rx"/>
       </Item16>
       <Item17>
-        <PackageName Value="pl_rx"/>
-      </Item17>
-      <Item18>
         <PackageName Value="adLCL"/>
-      </Item18>
+      </Item17>
     </RequiredPackages>
-    <Units Count="9">
+    <Units Count="10">
       <Unit0>
         <Filename Value="vcfToGigaset.ppr"/>
         <IsPartOfProject Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="unit1.pas"/>
+        <FRMtype Value="200"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
         <HasResources Value="True"/>
@@ -174,6 +95,7 @@
       </Unit1>
       <Unit2>
         <Filename Value="unit2.pas"/>
+        <FRMtype Value="200"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FormPolozkyPom"/>
         <HasResources Value="True"/>
@@ -186,40 +108,49 @@
       </Unit3>
       <Unit4>
         <Filename Value="unVyberHandsets.pas"/>
+        <FRMtype Value="200"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmVyberHandsets"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit4>
       <Unit5>
+        <Filename Value="E:\Archiv\CodeTyphon\Internet tools\utf8tools\utf8tools.ctpkg"/>
+        <IsPartOfProject Value="True"/>
+      </Unit5>
+      <Unit6>
         <Filename Value="unnastaveni.pas"/>
+        <FRMtype Value="200"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmNastaveni"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="unNastaveni"/>
-      </Unit5>
-      <Unit6>
+      </Unit6>
+      <Unit7>
         <Filename Value="unZjistiIp.pas"/>
+        <FRMtype Value="200"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmZjistiIp"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-      </Unit6>
-      <Unit7>
+      </Unit7>
+      <Unit8>
         <Filename Value="unHledej.pas"/>
+        <FRMtype Value="200"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmHledej"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-      </Unit7>
-      <Unit8>
+      </Unit8>
+      <Unit9>
         <Filename Value="unUkazHistorii.pas"/>
+        <FRMtype Value="200"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmUkazHistorii"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-      </Unit8>
+      </Unit9>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
